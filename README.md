@@ -1,60 +1,45 @@
-# Deepfake Detection with Streamlit
+# 🕵️‍♂️ Deepfake Detection App
 
-A simple web app to detect deepfake images or videos using Streamlit.
+This Streamlit-based application allows users to detect deepfakes in **images**, **videos**, and **audio files**. It provides a simple UI with optional heatmap visualizations using Grad-CAM for interpretability.
 
-## Features
-- Upload an image or video
-- Get a prediction (real/fake) with confidence score
+---
 
-## Setup
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-``` 
-2. Run the app:
-```bash
-streamlit run app.py
-``` 
+## 🚀 Features
 
-## Usage
-1. Upload an image or video
-2. Get a prediction (real/fake) with confidence score
+- 🔒 **Login System** for secure access.
+- 🖼️ **Image Deepfake Detection** with Grad-CAM heatmaps.
+- 🎞️ **Video Deepfake Detection** using frame-by-frame analysis.
+- 🎵 **Audio Deepfake Detection** using Mel-spectrogram visualization.
+- 📊 Confidence scoring and visual feedback for better interpretation.
+- 🧠 Uses **pretrained EfficientNet** as a placeholder model (demo).
 
-## License
-MIT
+---
 
-## Acknowledgments
-- [Streamlit](https://streamlit.io/)
-- [OpenCV](https://opencv.org/)
-- [NumPy](https://numpy.org/)
-- [Pillow](https://pillow.readthedocs.io/)
+## 🛠️ Technologies Used
 
-## Contributing
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) for more information.
+- [Streamlit](https://streamlit.io/) – UI framework
+- [PyTorch](https://pytorch.org/) – Deep learning backend
+- [Torchvision](https://pytorch.org/vision/stable/index.html) – Pretrained models
+- [PIL (Pillow)](https://python-pillow.org/) – Image processing
+- [OpenCV](https://opencv.org/) – Video frame extraction
+- [Librosa](https://librosa.org/) – Audio analysis
+- [Matplotlib](https://matplotlib.org/) – Spectrogram plotting
+- [Grad-CAM (optional)](https://github.com/jacobgil/pytorch-grad-cam) – Heatmap visualization
 
-## Authors
-- [Remya](https://github.com/remya)
+---
 
-## License
-MIT
+## 📦 Installation
 
-## Acknowledgments
-- [Streamlit](https://streamlit.io/)
-- [OpenCV](https://opencv.org/)
-- [NumPy](https://numpy.org/)
-- [Pillow](https://pillow.readthedocs.io/)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/RemyaaSree/Advanced-Deep-Fake-Detection
+   cd deepfake-detector-app
 
-## Contributing
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) for more information.
 
 ## Authors
-- [Remya](https://github.com/remya)
+- [Remyaa Sree](https://github.com/RemyaaSree)
 
 ## License
 MIT
 
-## Acknowledgments
-- [Streamlit](https://streamlit.io/)
-- [OpenCV](https://opencv.org/)
-- [NumPy](https://numpy.org/)
-- [Pillow](https://pillow.readthedocs.io/)
+
